@@ -14,6 +14,15 @@ cd st
 sudo make install
 ```
 
+## Extras
+
+Some features and keybinds added are:
+
+- Scrollback line by line with `alt+j` and `alt+k`, and scroll screens with `alt+f` and `alt+b`.
+- Font resize also with `alt+shift+j` and `alt+shift+j`.
+- New terminal in the current directory with `alt+shift+return`.
+- Copy and paste from clipboard with `alt-c` and `alt-v`.
+
 ## Patches applied
 
 - st-alpha-0.8.2
