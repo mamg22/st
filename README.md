@@ -19,9 +19,10 @@ sudo make install
 Some features and keybinds added are:
 
 - Scrollback line by line with `alt+j` and `alt+k`, and scroll screens with `alt+f` and `alt+b`.
-- Font resize also with `alt+shift+j` and `alt+shift+j`.
+- Font resize also with `alt+shift+j` and `alt+shift+k`.
 - New terminal in the current directory with `alt+shift+return`.
 - Copy and paste from clipboard with `alt-c` and `alt-v`.
+- Boxdraw patch for better line rendering.
 
 ## Patches applied
 
