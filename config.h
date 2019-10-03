@@ -5,13 +5,13 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=9:antialias=true:autohint=true";
+static char *font = "Liberation Mono:size=9:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-	"Inconsolata:pixelsize=9:antialias=true:autohint=true",
+	"Symbola:size=9:antialias=true:autohint=true",
 };
 
-static int borderpx = 2;
+static int borderpx = 1;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -220,6 +220,8 @@ MouseKey mkeys[] = {
 	/* button               mask            function        argument */
 	{ Button4,              ShiftMask,      kscrollup,      {.i =  1} },
 	{ Button5,              ShiftMask,      kscrolldown,    {.i =  1} },
+	{ Button4,              Mod1Mask,       kscrollup,      {.i =  1} },
+	{ Button5,              Mod1Mask,       kscrolldown,    {.i =  1} },
 };
 
 /* Internal keyboard shortcuts. */
