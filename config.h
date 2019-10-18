@@ -5,10 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:size=9:antialias=true:autohint=true";
+static char *font = "Liberation Mono:size=9";
 /* Spare fonts */
 static char *font2[] = {
-	"Symbola:size=9:antialias=true:autohint=true",
 };
 
 static int borderpx = 1;
@@ -124,9 +123,9 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#555555",
-    "black",
+    "#161821",
+    "#d2d4de",
+    "#d2d4de",
 };
 
 
@@ -134,9 +133,9 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 7;
-unsigned int defaultbg = 0;
-static unsigned int defaultcs = 7;
+unsigned int defaultfg = 257;
+unsigned int defaultbg = 256;
+static unsigned int defaultcs = 258;
 static unsigned int defaultrcs = 0;
 
 /*

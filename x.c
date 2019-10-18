@@ -1387,7 +1387,7 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len, int x
 			FcPatternAddCharSet(fcpattern, FC_CHARSET,
 					fccharset);
 			FcPatternAddBool(fcpattern, FC_SCALABLE, 1);
-
+            FcPatternAddBool(fcpattern, FC_COLOR, FcFalse);
 			FcConfigSubstitute(0, fcpattern,
 					FcMatchPattern);
 			FcDefaultSubstitute(fcpattern);
