@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:size=9";
+static char *font = "Hack:size=9";
 /* Spare fonts */
 static char *font2[] = {
 };
