@@ -123,9 +123,14 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
+<<<<<<< HEAD
     "#161821",
     "#d2d4de",
     "#d2d4de",
+=======
+	"#cccccc",
+	"#555555",
+>>>>>>> parent of 7483a17... apply xresources patch
 };
 
 
@@ -133,10 +138,17 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
+<<<<<<< HEAD
 unsigned int defaultfg = 257;
 unsigned int defaultbg = 256;
 static unsigned int defaultcs = 258;
 static unsigned int defaultrcs = 0;
+=======
+unsigned int defaultfg = 7;
+unsigned int defaultbg = 0;
+static unsigned int defaultcs = 256;
+static unsigned int defaultrcs = 257;
+>>>>>>> parent of 7483a17... apply xresources patch
 
 /*
  * Default shape of cursor
@@ -168,6 +180,7 @@ static unsigned int mousebg = 0;
 static unsigned int defaultattr = 11;
 
 /*
+<<<<<<< HEAD
  * Xresources preferences to load at startup
  */
 ResourcePref resources[] = {
@@ -206,6 +219,8 @@ ResourcePref resources[] = {
 };
 
 /*
+=======
+>>>>>>> parent of 7483a17... apply xresources patch
  * Internal mouse shortcuts.
  * Beware that overloading Button1 will disable the selection.
  */
