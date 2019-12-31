@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Hack:size=9";
-static int borderpx = 1;
+static int borderpx = 2;
 
 /*
  * What program is execed by st depends of these precedence rules:

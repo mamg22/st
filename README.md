@@ -31,9 +31,7 @@ Some features and keybinds added are:
 - st-bold-is-not-bright-20190127-3be4cf1
 - st-boxdraw_v2-0.8.2
 - st-externalpipe-0.8.2
-- st-font2-20190416-ba72400
 - st-newterm-0.8.2
 - st-scrollback-20190331-21367a0
 - st-scrollback-mouse-0.8.2
 - st-vertcenter-20180320-6ac8c8a
-- st-xresources-20190105-3be4cf1
