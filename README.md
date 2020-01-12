@@ -34,4 +34,3 @@ Some features and keybinds added are:
 - st-newterm-0.8.2
 - st-scrollback-20190331-21367a0
 - st-scrollback-mouse-0.8.2
-- st-vertcenter-20180320-6ac8c8a
