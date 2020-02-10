@@ -1,8 +1,8 @@
 # mamg22's `st` build
 
-This is my build/fork of the [suckless terminal](https://st.suckless.org/), with many patches to provide a wonderful experience.
+This is my build/fork of the [suckless terminal](https://st.suckless.org/), with some patches to provide a wonderful experience.
 
-It uses the Iceberg set of colors by default, but can read the ones in Xresources.
+It uses the Iceberg set of colors.
 
 ## Building
 
