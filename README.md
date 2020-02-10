@@ -20,7 +20,6 @@ Some features and keybinds added are:
 
 - Scrollback line by line with `alt+j` and `alt+k`, and scroll screens with `alt+f` and `alt+b`.
 - Font resize also with `alt+shift+j` and `alt+shift+k`.
-- New terminal in the current directory with `alt+shift+return`.
 - Copy and paste from clipboard with `alt-c` and `alt-v`.
 - Boxdraw patch for better line rendering.
 
@@ -31,6 +30,5 @@ Some features and keybinds added are:
 - st-bold-is-not-bright-20190127-3be4cf1
 - st-boxdraw_v2-0.8.2
 - st-externalpipe-0.8.2
-- st-newterm-0.8.2
 - st-scrollback-20190331-21367a0
 - st-scrollback-mouse-0.8.2
