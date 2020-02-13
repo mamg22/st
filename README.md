@@ -9,7 +9,7 @@ It uses the Iceberg set of colors.
 `st` requires `fontconfig` and the X11 and Xft headers, it's probable you have them already. `make` is also required. Build it doing:
 
 ```
-git clone https://github.com/mamg22/st
+git clone https://github.com/mamg22/st.git
 cd st
 sudo make install
 ```
