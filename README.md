@@ -27,7 +27,6 @@ Some features and keybinds added are:
 
 - st-alpha-0.8.2
 - st-anysize-0.8.1
-- st-bold-is-not-bright-20190127-3be4cf1
 - st-boxdraw_v2-0.8.2
 - st-externalpipe-0.8.2
 - st-scrollback-20190331-21367a0
