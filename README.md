@@ -1,6 +1,6 @@
 # mamg22's `st` build
 
-This is my build/fork of the [suckless terminal](https://st.suckless.org/), with some patches to provide a wonderful experience.
+This is my build/fork of the [suckless terminal](https://st.suckless.org/), with a few nice patches.
 
 It uses the Iceberg set of colors.
 
@@ -28,6 +28,4 @@ Some features and keybinds added are:
 - st-alpha-0.8.2
 - st-anysize-0.8.1
 - st-boxdraw_v2-0.8.2
-- st-externalpipe-0.8.2
 - st-scrollback-20190331-21367a0
-- st-scrollback-mouse-0.8.2
